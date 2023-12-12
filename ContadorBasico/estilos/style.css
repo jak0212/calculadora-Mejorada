@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #eeebeb; /* Cambia el color de fondo según tu preferencia */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(249, 248, 248, 0.8); /* Cambia el color de fondo según tu preferencia */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega sombra al contenedor */
+  }
+  
+  #contador {
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color:blue;
+  }
+  
