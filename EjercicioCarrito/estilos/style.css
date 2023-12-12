@@ -1,0 +1,76 @@
+/* Estilos generales */
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Establece la fuente del cuerpo del documento. */
+  background-color: aquamarine; /* Establece el color de fondo del cuerpo del documento. */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo. */
+  background-position: center; /* Alinea la imagen de fondo al centro. */
+  background-image: url(/img/59476c3211e81aaa49c5d3f7ed3a940f.gif); /* Establece la imagen de fondo del cuerpo del documento. */
+}
+
+.container {
+  max-width: 960px; /* Establece el ancho máximo del contenedor principal. */
+  margin: 0 auto; /* Centra el contenedor en la página. */
+  color: rgb(3, 3, 3); /* Establece el color del texto en el contenedor principal. */
+}
+
+/* Nuevos estilos para la sección de productos */
+.productSection {
+  margin-top: 20px; /* Añade un margen superior a la sección de productos. */
+}
+
+.productTitle {
+  color: #141414; /* Color del texto del título de los productos. */
+  text-align: center; /* Alinea el texto al centro. */
+  font-family: 'Moirai One', Arial, Helvetica, sans-serif; /* Establece la fuente del título de los productos. */
+  font-family: 'Press Start 2P', Arial, Helvetica, sans-serif; /* Establece una fuente de respaldo para el título de los productos. */
+  font-size: 25px; /* Establece el tamaño del texto del título de los productos. */
+}
+
+.productItem {
+  border: 15px solid #0d0d0e; /* Establece el grosor y el color del borde del contenedor del producto. */
+  margin-bottom: 20px; /* Añade un margen inferior al contenedor del producto. */
+  padding: 20px; /* Establece el relleno interno del contenedor del producto. */
+  display: flex; /* Establece el diseño de la caja como flexible. */
+  align-items: start; /* Alinea los elementos secundarios al inicio del eje transversal. */
+  justify-content: center; /* Alinea los elementos secundarios al centro del eje principal. */
+}
+
+.productTitle {
+  margin-bottom: 50px; /* Añade un margen inferior al título del producto. */
+  color: white; /* Establece el color del texto del título del producto. */
+}
+
+img {
+  width: 50%; /* Establece el ancho de las imágenes al 50% del contenedor. */
+  height: 50vh; /* Establece la altura de las imágenes al 50% de la altura visible del dispositivo. */
+  border: 5px solid #558f8f; /* Establece el grosor y el color del borde de las imágenes. */
+  margin-bottom: 13px; /* Añade un margen inferior a las imágenes. */
+  margin: 0 30px; /* Establece el margen izquierdo y derecho de las imágenes. */
+}
+
+.productDetails {
+  margin-top: 10px; /* Añade un margen superior a los detalles del producto. */
+  color: white; /* Establece el color del texto de los detalles del producto. */
+}
+
+.productTotal {
+  font-weight: bold; /* Establece el peso de la fuente en negrita para el total del producto. */
+  color: rgb(255, 255, 255); /* Establece el color del texto para el total del producto. */
+}
+
+.productActions {
+  margin-top: 10px; /* Añade un margen superior a las acciones del producto. */
+  display: flex; /* Establece el diseño de la caja como flexible. */
+  justify-content: center; /* Alinea los elementos secundarios al centro del eje principal. */
+}
+
+button {    
+  margin: 0 5px; /* Establece el margen izquierdo y derecho de los botones. */
+  color: black; /* Establece el color del texto de los botones. */
+}
+
+#botonTotal,#total {
+  margin-left: 46%; /* Establece el margen izquierdo del botón y el total. */
+  color: white; /* Establece el color del texto del botón y el total. */
+}
+
